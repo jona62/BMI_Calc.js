@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <h1 id="H1" style="color:black">BMI Calculator</h1>
+  <!--Input-->
+    <div class = "calc">
+      <form>
+        Enter your name: &nbsp;&nbsp;&nbsp;
+        <input type = "text" id="InputName"/><br><br>
+        Heights in Inches: &nbsp;&nbsp;
+        <input type = "text" id="height"/><br><br>
+        Weight in pounds: &nbsp;&nbsp;
+        <input type = "text" id="weight"/><br><br>
+        <input type= "button" onclick = "myFunction();" value= "OK"/><br><br>
+
+        <input type = "text" id="input"/><br><br>
+        <input type= "button" onclick = "change();" value= "Change Header Color"/><br><br>
+      </form>
+
+  <!--Output -->
+      <div class = "output">
+        <p id="OutputName"></p>
+        <p id="OutputBmi"></p>
+        <p id="OutputMessage"></p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

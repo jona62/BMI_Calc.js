@@ -1,0 +1,23 @@
+body{
+  background: #e3e9f2;
+  font-family: Questrial, sans-serif;
+  font-size: 14px;
+}
+
+h1{
+  padding: 10px, 10px, 10px, 10px;
+}
+h1:hover{
+  cursor: pointer;
+}
+.calc{
+  background: #f2f7ff;
+  padding: 20px;
+}
+input{
+  border-radius: 5px;
+}
+input:hover{
+  color:#42a3aa;
+  background: #d0dadb;
+}
